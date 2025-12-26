@@ -5,17 +5,77 @@ body {
   padding: 20px;
   line-height: 1.6;
   color: #333;
+  background-color: #f9f9f9;
+}
+
+.mockup-banner {
+  background-color: #fffbe6;
+  color: #8a6d3b;
+  padding: 10px 20px;
+  text-align: center;
+  border-bottom: 1px solid #f2e7c3;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 40px;
 }
 
 h1 {
   color: #0066cc;
   border-bottom: 2px solid #0066cc;
   padding-bottom: 10px;
+  display: inline-block;
 }
 
-code {
-  background: #f4f4f4;
-  padding: 2px 6px;
+main {
+  padding: 20px;
+}
+
+.project-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.project-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card h2 {
+  color: #0066cc;
+  margin-top: 0;
+}
+
+.project-card .team {
+  margin-top: auto;
+  font-size: 0.9em;
+  color: #555;
+}
+
+.view-project-btn {
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  padding: 10px 15px;
   border-radius: 3px;
-  font-family: 'Courier New', monospace;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 15px;
+  transition: background-color 0.3s;
+}
+
+.view-project-btn:hover {
+  background-color: #0052a3;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  color: #777;
 }

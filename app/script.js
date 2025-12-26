@@ -1,3 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
-  console.log('projects.arthurreira.dev loaded successfully!');
+  const buttons = document.querySelectorAll('.view-project-btn');
+  buttons.forEach(button => {
+    button.addEventListener('click', () => {
+      alert('Navigating to project page... (This is a mockup).');
+    });
+  });
 });
